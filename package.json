@@ -1,0 +1,57 @@
+{
+  "name": "joukou-circles-core",
+  "version": "0.0.1",
+  "description": "Core classes for Joukou Circles.",
+  "author": "Joukou Ltd <team@joukou.com>",
+  "license": "Apache-2.0",
+  "private": true,
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "gulp ci"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/joukou/joukou-circles-core.git"
+  },
+  "keywords": [
+    "joukou",
+    "circles",
+    "circle",
+    "core"
+  ],
+  "bugs": {
+    "url": "https://github.com/joukou/joukou-circles-core/issues"
+  },
+  "homepage": "https://github.com/joukou/joukou-circles-core",
+  "dependencies": {
+    "q": "1.0.1",
+    "lodash": "2.4.1",
+    "amqplib": "0.2.0",
+    "bignum": "0.9.0",
+    "gulp-sourcemaps": "~0.4.1",
+    "node-uuid": "~1.4.1"
+  },
+  "devDependencies": {
+    "coffee-script": "1.7.1",
+    "lazypipe": "0.2.1",
+    "gulp": "3.8.5",
+    "gulp-changed": "0.4.0",
+    "gulp-clean": "0.3.1",
+    "gulp-coffee": "2.0.1",
+    "gulp-coffeelint": "0.3.3",
+    "gulp-contribs": "0.0.2",
+    "gulp-coveralls": "0.1.2",
+    "gulp-grep-stream": "0.0.2",
+    "gulp-istanbul": "0.2.0",
+    "gulp-jsonlint": "0.0.3",
+    "gulp-load-plugins": "0.5.3",
+    "gulp-mocha": "0.4.1",
+    "gulp-nodemon": "1.0.4",
+    "gulp-notify": "1.4.0",
+    "gulp-plumber": "0.6.3",
+    "gulp-sloc": "1.0.4",
+    "gulp-util": "2.2.14",
+    "gulp-watch": "0.6.8",
+    "chai": "1.9.1"
+  }
+}
